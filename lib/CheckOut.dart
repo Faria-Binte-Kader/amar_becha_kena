@@ -1,4 +1,5 @@
 import 'package:amar_becha_kena/auth_methods.dart';
+import 'package:amar_becha_kena/background.dart';
 import 'package:amar_becha_kena/my_cart.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
@@ -233,6 +234,7 @@ class _CheckOutState extends State<CheckOut> {
                               style: TextStyle(color: Colors.white, fontSize: 20),
                             ),
                             onPressed: () {
+                              Navigator.pop(context);
                               if(address.text.isNotEmpty && phone.text.isNotEmpty) {
                                 CheckandUpdateProductDetails().then((value) => setState(() {
                                   deleteFromCart( widget.pname, widget.quantity.toString(),
@@ -248,7 +250,7 @@ class _CheckOutState extends State<CheckOut> {
                                   );
                                   Navigator.push(
                                     context,
-                                    MaterialPageRoute(builder: (context) =>  const MyCartPage()),
+                                    MaterialPageRoute(builder: (context) =>  const BackGroundPage()),
                                   );
                                 }));
                                 PlaceOrder(

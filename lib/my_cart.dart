@@ -9,6 +9,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
+import 'background.dart';
+
 class MyCartPage extends StatefulWidget {
   const MyCartPage({Key? key}) : super(key: key);
 
@@ -140,7 +142,7 @@ class _MyCartPageState extends State<MyCartPage> {
                                 .then((value) {
                                 Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) =>  const MyCartPage()),
+                                MaterialPageRoute(builder: (context) =>  const BackGroundPage()),
                               );
                             });
                           },
