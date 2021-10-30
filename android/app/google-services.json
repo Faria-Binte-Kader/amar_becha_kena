@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "589355321717",
+    "project_id": "amar-becha-kena",
+    "storage_bucket": "amar-becha-kena.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589355321717:android:d25735150d9dc8a8d92b3c",
+        "android_client_info": {
+          "package_name": "com.example.amar_becha_kena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589355321717-gdg7fvaav3eok7l4h6lddudsth712fuc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCepUI1s92jwIqzvEV5L6Wsx3jJAXDBsh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589355321717-gdg7fvaav3eok7l4h6lddudsth712fuc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
